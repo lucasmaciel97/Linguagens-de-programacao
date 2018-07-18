@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Menu com Submenus</title>
+	<meta charset="utf-8"/>
+</head>
+<style>
+		.menu ul li{
+			background-color: #31f98f;
+			color: white;
+			float: left;
+			width: 200px;
+			height: 30px;
+			display: inline-block;
+			text-align: center;
+			line-height: 30px;
+			font-size: 15px;
+		}
+		.menus ul li: hover{
+			background-color: #39c67c;
+		}
+		.menu ul{
+			padding: 0;
+		}
+		.menu ul ul{
+			display: none;
+		}
+		.menu ul li: hover>ul{
+			display: block;
+		}
+		.menu a{
+			color: white;
+			text-decoration: none;
+		}
+	</style>
+<body>
+	<nav class="menus">
+		<ul>
+			<a href="#"><li>Sobre</a>
+				<ul>
+					<a href="#"><li>História</li></a>
+					<a href="#"><li>Hino</li></a>
+					<a href="#"><li>Pontos Turísticos</li></a>			
+				</ul>
+			</li>
+			<a href="#"><li>Secretarios</li></a>
+			<a href="#"><li>Leis</li></a>
+			<a href="#"><li>Responsabilidade Civil</li></a>
+			<a href="#"><li>Fale Conosco</li></a>
+		</ul>
+	</nav>
+</body>
+</html>
